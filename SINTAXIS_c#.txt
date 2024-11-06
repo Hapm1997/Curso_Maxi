@@ -1,0 +1,40 @@
+C# sintaxis
+
+int[] num = new int[10]; 
+
+int a ;
+Console.WriteLine("HOLA");
+a = int.Parse(Console.ReadLine());
+
+Console.ReadKey();
+
+STRING 
+.LENGTH()
+.REPLACE('A' , 'W')
+.UPPER
+.LOWER
+
+HERENCIA: lo que es un objeto
+
+ASOCIACION: lo que tiene un objeto
+	-Composicion: lo que nace con el objeto
+	-Agregacion: lo que se le añade al objeto
+
+TIPOS DE CLASES 
+-abstract: cuando quiero que una clase no este instanciada, que el programa no permita crear un objeto de esa clase, solo de sus hijas
+-sealed: no permite que la clase que este marcada pueda ser heredada por otra clase
+Estas clases pueden ayudar a determinar una jeraquia, empezar con abstrat y terminar con sealed.
+-static: esta clase no se puede heredar, ni  instanciar. Me permite usarla sin instanciarla.
+
+OPERADOR TERNARIO
+string choco = chaecbox.checked == true ? "Le gusta" : "No le gusta"; 
+
+Tab Index
+view >> tab order
+
+DateTime
+.ToString("dd/MM/yy")
+.AddDays(4)
+.Add....
+.ToShortDayString()
+.ToShortTimeString()

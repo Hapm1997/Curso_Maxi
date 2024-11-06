@@ -1,0 +1,6 @@
+Administracion de un deposito multiproposito
+
+pasillos
+lados
+compartimientos para un tipo de productos
+
